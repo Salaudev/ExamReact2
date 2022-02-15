@@ -1,0 +1,66 @@
+.input-block {
+    width: 90%;
+    padding: 15px 20px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 4px;
+    margin-block: 20px;
+    margin-left: -2px;
+    background-color: white;
+    box-shadow: 0 5px 10px 0 black;
+
+}
+
+.input-block .main-input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    flex: 1;
+}
+
+.input-block button {
+    background: transparent;
+    border: none;
+}
+
+.todo-app-box {
+    text-align: center;
+    padding: 20px 40px;
+    width: 40%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+
+.icons{
+    font-size: 24px;
+    color: silver;
+}
+
+footer .actions {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+
+}
+
+footer .actions ul {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    align-items: center;
+}
+
+footer .actions ul li {
+    color: silver;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+footer .actions ul a {
+    text-decoration: none;
+}
